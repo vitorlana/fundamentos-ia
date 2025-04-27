@@ -1,0 +1,180 @@
+/mnt/HC_Volume_102479040/projects/fundamentos-ia/myenv/bin/python3.12 /mnt/HC_Volume_102479040/projects/fundamentos-ia/tp1/tp1_task1_analysis.py
+
+Total: 47 tabuleiros solucionáveis de 100
+
+Total: 510 tabuleiros solucionáveis de 1000
+
+Total: 4993 tabuleiros solucionáveis de 10000
+
+Total: 49991 tabuleiros solucionáveis de 100000
+Plotando resultados para 100 execuções...
+Analisando tabuleiros duplicados para 100 execuções...
+Total gerados: 100, Únicos: 100, Duplicados: 0 (0.00%)
+Plotando resultados para 1000 execuções...
+Analisando tabuleiros duplicados para 1000 execuções...
+Total gerados: 1000, Únicos: 1000, Duplicados: 0 (0.00%)
+Plotando resultados para 10000 execuções...
+Analisando tabuleiros duplicados para 10000 execuções...
+Total gerados: 10000, Únicos: 10000, Duplicados: 0 (0.00%)
+Plotando resultados para 100000 execuções...
+Analisando tabuleiros duplicados para 100000 execuções...
+Total gerados: 100000, Únicos: 100000, Duplicados: 0 (0.00%)
+Gerando tabuleiros até encontrar um igual
+(1
+Tabuleiro repetido encontrado após 4971504 gerações.
+(2
+Tabuleiro repetido encontrado após 1937885 gerações.
+(3
+Tabuleiro repetido encontrado após 4404125 gerações.
+(4
+Tabuleiro repetido encontrado após 4893434 gerações.
+(5
+Tabuleiro repetido encontrado após 6764907 gerações.
+(6
+Tabuleiro repetido encontrado após 6027372 gerações.
+(7
+Tabuleiro repetido encontrado após 10483092 gerações.
+(8
+Tabuleiro repetido encontrado após 6005457 gerações.
+(9
+
+
+ex2
+
+/mnt/HC_Volume_102479040/projects/fundamentos-ia/myenv/bin/python3.12 /mnt/HC_Volume_102479040/projects/fundamentos-ia/tp1/tp1_task1_analysis.py
+
+Total: 49 tabuleiros solucionáveis de 100
+
+Total: 501 tabuleiros solucionáveis de 1000
+
+Total: 5078 tabuleiros solucionáveis de 10000
+
+Total: 49970 tabuleiros solucionáveis de 100000
+
+Total: 499769 tabuleiros solucionáveis de 1000000
+
+Total: 4998783 tabuleiros solucionáveis de 10000000
+
+
+Plotando resultados para 100 execuções...
+Analisando tabuleiros duplicados para 100 execuções...
+Total gerados: 100, Únicos: 100, Duplicados: 0 (0.00%)
+Plotando resultados para 1000 execuções...
+Analisando tabuleiros duplicados para 1000 execuções...
+Total gerados: 1000, Únicos: 1000, Duplicados: 0 (0.00%)
+Plotando resultados para 10000 execuções...
+Analisando tabuleiros duplicados para 10000 execuções...
+Total gerados: 10000, Únicos: 10000, Duplicados: 0 (0.00%)
+Plotando resultados para 100000 execuções...
+Analisando tabuleiros duplicados para 100000 execuções...
+Total gerados: 100000, Únicos: 100000, Duplicados: 0 (0.00%)
+Plotando resultados para 1000000 execuções...
+Analisando tabuleiros duplicados para 1000000 execuções...
+Total gerados: 1000000, Únicos: 1000000, Duplicados: 0 (0.00%)
+Plotando resultados para 10000000 execuções...
+Analisando tabuleiros duplicados para 10000000 execuções...
+Total gerados: 10000000, Únicos: 9999999, Duplicados: 1 (0.00%)
+Gerando tabuleiros até encontrar um igual
+(1) Tabuleiro repetido encontrado após 10830214 gerações.
+(2) Tabuleiro repetido encontrado após 2066842 gerações.
+(3) Tabuleiro repetido encontrado após 6153034 gerações.
+(4) Tabuleiro repetido encontrado após 2568256 gerações.
+(5) Tabuleiro repetido encontrado após 4491883 gerações.
+(6) Tabuleiro repetido encontrado após 551007 gerações.
+(7) Tabuleiro repetido encontrado após 4366002 gerações.
+(8) Tabuleiro repetido encontrado após 6581674 gerações.
+(9) Tabuleiro repetido encontrado após 7292721 gerações.
+(10) Tabuleiro repetido encontrado após 4337783 gerações.
+(11) Tabuleiro repetido encontrado após 8326979 gerações.
+(12) Tabuleiro repetido encontrado após 7024754 gerações.
+(13) Tabuleiro repetido encontrado após 4787292 gerações.
+(14) Tabuleiro repetido encontrado após 16427120 gerações.
+(15) Tabuleiro repetido encontrado após 7036611 gerações.
+(16) Tabuleiro repetido encontrado após 4309648 gerações.
+(17) Tabuleiro repetido encontrado após 2591705 gerações.
+(18) Tabuleiro repetido encontrado após 946061 gerações.
+(19) Tabuleiro repetido encontrado após 10228197 gerações.
+(20) Tabuleiro repetido encontrado após 6493324 gerações.
+(21) Tabuleiro repetido encontrado após 10140210 gerações.
+(22) Tabuleiro repetido encontrado após 3435077 gerações.
+(23) Tabuleiro repetido encontrado após 3796179 gerações.
+(24) Tabuleiro repetido encontrado após 8943632 gerações.
+(25) Tabuleiro repetido encontrado após 8773084 gerações.
+(26) Tabuleiro repetido encontrado após 4150951 gerações.
+(27) Tabuleiro repetido encontrado após 5876594 gerações.
+(28) Tabuleiro repetido encontrado após 2766700 gerações.
+(29) Tabuleiro repetido encontrado após 9765270 gerações.
+(30) Tabuleiro repetido encontrado após 6221296 gerações.
+(31) Tabuleiro repetido encontrado após 9173777 gerações.
+(32) Tabuleiro repetido encontrado após 1615488 gerações.
+(33) Tabuleiro repetido encontrado após 8882514 gerações.
+(34) Tabuleiro repetido encontrado após 5339530 gerações.
+(35) Tabuleiro repetido encontrado após 6164906 gerações.
+(36) Tabuleiro repetido encontrado após 6082094 gerações.
+(37) Tabuleiro repetido encontrado após 2061954 gerações.
+(38) Tabuleiro repetido encontrado após 5692982 gerações.
+(39) Tabuleiro repetido encontrado após 4000117 gerações.
+(40) Tabuleiro repetido encontrado após 2342283 gerações.
+(41) Tabuleiro repetido encontrado após 1452436 gerações.
+(42) Tabuleiro repetido encontrado após 1566694 gerações.
+(43) Tabuleiro repetido encontrado após 7364778 gerações.
+(44) Tabuleiro repetido encontrado após 5045283 gerações.
+(45) Tabuleiro repetido encontrado após 9023805 gerações.
+(46) Tabuleiro repetido encontrado após 9694217 gerações.
+(47) Tabuleiro repetido encontrado após 7068242 gerações.
+(48) Tabuleiro repetido encontrado após 10907071 gerações.
+(49) Tabuleiro repetido encontrado após 6941499 gerações.
+(50) Tabuleiro repetido encontrado após 6450758 gerações.
+(51) Tabuleiro repetido encontrado após 3050857 gerações.
+(52) Tabuleiro repetido encontrado após 7649660 gerações.
+(53) Tabuleiro repetido encontrado após 8858466 gerações.
+(54) Tabuleiro repetido encontrado após 7780244 gerações.
+(55) Tabuleiro repetido encontrado após 10137645 gerações.
+(56) Tabuleiro repetido encontrado após 3579905 gerações.
+(57) Tabuleiro repetido encontrado após 5892477 gerações.
+(58) Tabuleiro repetido encontrado após 58897 gerações.
+(59) Tabuleiro repetido encontrado após 5989427 gerações.
+(60) Tabuleiro repetido encontrado após 3913466 gerações.
+(61) Tabuleiro repetido encontrado após 8972656 gerações.
+(62) Tabuleiro repetido encontrado após 8177197 gerações.
+(63) Tabuleiro repetido encontrado após 2610066 gerações.
+(64) Tabuleiro repetido encontrado após 6734433 gerações.
+(65) Tabuleiro repetido encontrado após 2595025 gerações.
+(66) Tabuleiro repetido encontrado após 7393868 gerações.
+(67) Tabuleiro repetido encontrado após 4576320 gerações.
+(68) Tabuleiro repetido encontrado após 9503117 gerações.
+(69) Tabuleiro repetido encontrado após 14946280 gerações.
+(70) Tabuleiro repetido encontrado após 1245130 gerações.
+(71) Tabuleiro repetido encontrado após 6073536 gerações.
+(72) Tabuleiro repetido encontrado após 3322337 gerações.
+(73) Tabuleiro repetido encontrado após 5620821 gerações.
+(74) Tabuleiro repetido encontrado após 4217552 gerações.
+(75) Tabuleiro repetido encontrado após 8522314 gerações.
+(76) Tabuleiro repetido encontrado após 10332141 gerações.
+(77) Tabuleiro repetido encontrado após 6838845 gerações.
+(78) Tabuleiro repetido encontrado após 7186041 gerações.
+(79) Tabuleiro repetido encontrado após 6408058 gerações.
+(80) Tabuleiro repetido encontrado após 4743036 gerações.
+(81) Tabuleiro repetido encontrado após 2758995 gerações.
+(82) Tabuleiro repetido encontrado após 2535008 gerações.
+(83) Tabuleiro repetido encontrado após 9079988 gerações.
+(84) Tabuleiro repetido encontrado após 2755390 gerações.
+(85) Tabuleiro repetido encontrado após 10354099 gerações.
+(86) Tabuleiro repetido encontrado após 8612339 gerações.
+(87) Tabuleiro repetido encontrado após 2160312 gerações.
+(88) Tabuleiro repetido encontrado após 4034176 gerações.
+(89) Tabuleiro repetido encontrado após 6111669 gerações.
+(90) Tabuleiro repetido encontrado após 5852201 gerações.
+(91) Tabuleiro repetido encontrado após 3620874 gerações.
+(92) Tabuleiro repetido encontrado após 3419321 gerações.
+(93) Tabuleiro repetido encontrado após 4923688 gerações.
+(94) Tabuleiro repetido encontrado após 4792089 gerações.
+(95) Tabuleiro repetido encontrado após 2517766 gerações.
+(96) Tabuleiro repetido encontrado após 7247185 gerações.
+(97) Tabuleiro repetido encontrado após 8173407 gerações.
+(98) Tabuleiro repetido encontrado após 12646640 gerações.
+(99) Tabuleiro repetido encontrado após 6444240 gerações.
+(100) Tabuleiro repetido encontrado após 2289008 gerações.
+
+Process finished with exit code 0
+

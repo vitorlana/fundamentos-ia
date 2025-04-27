@@ -239,15 +239,15 @@ def dfs(inicial, objetivo, profundidade_maxima):
 # for linha in tabuleiro_soluvel:
 #     print(linha)
 # print("É solucionável?", eh_soluvel(tabuleiro_soluvel))
-
+#
 # inicial = tabuleiro_para_estado(tabuleiro_soluvel)
 # meta = tabuleiro_para_estado(objetivo)
-
+#
 # print("\n[Busca em Largura - BFS]")
 # sol_bfs, exp_bfs = bfs(inicial, meta)
 # print("Nós expandidos:", exp_bfs)
 # print("Passos até solução:", len(sol_bfs) if sol_bfs else "Não encontrada")
-
+#
 # print("\n[Busca em Profundidade - DFS]")
 # sol_dfs, exp_dfs = dfs(inicial, meta, 30) # profundidade ajustavél aqui
 # print("Nós expandidos:", exp_dfs)
@@ -303,65 +303,99 @@ def a_star(inicial, objetivo):
 
     return None, nos_expandidos
 
+def mostrar_passos_da_solucao(solucao):
+    if not solucao:
+        return ["Nenhuma solução encontrada."]
+    steps = ["--- Nova Solução ---"]
+    for i, estado in enumerate(solucao, start=1):
+        tab = estado_para_tabuleiro(estado)
+        steps.append(f"Passo {i}")
+        for linha in tab:
+            steps.append(str(linha))
+        steps.append('')
+    return steps
 
-# # Gerar um tabuleiro inicial SOLUCIONÁVEL
+def converter_caminho_em_direcoes(estado_inicial, caminho):
+    dirs = []
+    atual = estado_inicial
+    for prox in caminho:
+        i1, j1 = encontrar_zero(atual)
+        i2, j2 = encontrar_zero(prox)
+        if i2 < i1:
+            dirs.append("cima")
+        elif i2 > i1:
+            dirs.append("baixo")
+        elif j2 < j1:
+            dirs.append("esquerda")
+        else:
+            dirs.append("direita")
+        atual = prox
+    return dirs
+
+# # # Gerar um tabuleiro inicial SOLUCIONÁVEL
 # tabuleiro_soluvel = gerar_estado_inicial_soluvel(qtd_movimentos=10)
 # print("Tabuleiro inicial:")
 # for linha in tabuleiro_soluvel:
 #     print(linha)
 # print("É solucionável?", eh_soluvel(tabuleiro_soluvel))
-
+#
 # # Preparar estados
 # inicial = tabuleiro_para_estado(tabuleiro_soluvel)
 # meta = tabuleiro_para_estado(objetivo)
-
-# =====================
-# Testar BFS
-# =====================
+#
+# # =====================
+# # Testar BFS
+# # =====================
 # print("\n[Busca em Largura - BFS]")
 # start_time = time.time()
 # sol_bfs, exp_bfs = bfs(inicial, meta)
 # end_time = time.time()
 # tempo_bfs = end_time - start_time
-
+#
 # if sol_bfs:
 #     print("Solução encontrada!")
 #     print("Movimentos até solução:", len(sol_bfs))
+#     mostrar_passos_da_solucao(sol_bfs)
 # else:
 #     print("Solução NÃO encontrada!")
 # print("Nós expandidos:", exp_bfs)
 # print(f"Tempo: {tempo_bfs:.4f} segundos")
-
-# =====================
-# Testar DFS
-# =====================
+#
+# # =====================
+# # Testar DFS
+# # =====================
 # print("\n[Busca em Profundidade - DFS]")
 # start_time = time.time()
 # sol_dfs, exp_dfs = dfs(inicial, meta, profundidade_maxima=30) # profundidade ajustavél aqui
 # end_time = time.time()
 # tempo_dfs = end_time - start_time
-
+#
 # if sol_dfs:
 #     print("Solução encontrada!")
 #     print("Movimentos até solução:", len(sol_dfs))
+#     mostrar_passos_da_solucao(sol_dfs)
 # else:
 #     print("Solução NÃO encontrada!")
 # print("Nós expandidos:", exp_dfs)
 # print(f"Tempo: {tempo_dfs:.4f} segundos")
-
-# =====================
-# Testar A*
-# =====================
+#
+# # =====================
+# # Testar A*
+# # =====================
 # print("\n[Busca A* - A Star]")
 # start_time = time.time()
 # sol_a_star, exp_a_star = a_star(inicial, meta)
 # end_time = time.time()
 # tempo_a_star = end_time - start_time
-
+#
 # if sol_a_star:
 #     print("Solução encontrada!")
 #     print("Movimentos até solução:", len(sol_a_star))
+#     mostrar_passos_da_solucao(sol_a_star)
 # else:
 #     print("Solução NÃO encontrada!")
 # print("Nós expandidos:", exp_a_star)
 # print(f"Tempo: {tempo_a_star:.4f} segundos")
+
+
+

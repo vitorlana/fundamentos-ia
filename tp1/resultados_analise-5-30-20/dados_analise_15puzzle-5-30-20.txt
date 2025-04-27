@@ -1,0 +1,143 @@
+# ANÁLISE DE ALGORITMOS PARA RESOLUÇÃO DO 15-PUZZLE
+
+## METADADOS
+- Data da análise: 2025-04-27 18:34
+- Total de execuções analisadas: 15
+- Algoritmos analisados: BFS, DFS, A*
+- Iterações: 5
+
+## RESUMO EXECUTIVO
+### BFS
+- Tempo médio: 24.72 segundos
+- Nós expandidos: 2.80 milhões
+- Taxa de sucesso: 100.00%
+- Passos médios na solução: 17.40
+- Eficiência (nós/passo): 161051.54
+
+### DFS
+- Tempo médio: 18.54 segundos
+- Nós expandidos: 4.21 milhões
+- Taxa de sucesso: 20.00%
+- Passos médios na solução: 27.00
+- Eficiência (nós/passo): 78888.00
+
+### A*
+- Tempo médio: 0.005134 segundos
+- Nós expandidos: 226.40
+- Taxa de sucesso: 100.00%
+- Passos médios na solução: 17.40
+- Eficiência (nós/passo): 13.01
+
+## ANÁLISE COMPARATIVA
+### Tempo de Execução
+- Algoritmo mais rápido: A* (0.005134 segundos)
+- Algoritmo mais lento: BFS (24.722633 segundos)
+- O algoritmo BFS é 4815.33x mais lento que o A*
+
+### Nós Expandidos
+- Algoritmo com menos nós expandidos: A* (226.40)
+- Algoritmo com mais nós expandidos: DFS (4.21 milhões)
+- O algoritmo DFS expande 18600.48x mais nós que o A*
+
+### Taxa de Sucesso
+- BFS: 100.00%
+- DFS: 20.00%
+- A*: 100.00%
+
+### Eficiência
+- Algoritmo mais eficiente: A* (13.01 nós/passo)
+- Algoritmo menos eficiente: BFS (161.05 mil nós/passo)
+
+## ANÁLISE DE MOVIMENTOS
+### Frequência Total de Movimentos
+- Direita: 63
+- Esquerda: 53
+- Cima: 40
+- Baixo: 56
+
+### Movimentos por Algoritmo
+#### BFS
+- Direita: 28
+- Esquerda: 23
+- Cima: 17
+- Baixo: 24
+
+#### DFS
+- Direita: 7
+- Esquerda: 7
+- Cima: 6
+- Baixo: 8
+
+#### A*
+- Direita: 28
+- Esquerda: 23
+- Cima: 17
+- Baixo: 24
+
+### Tamanho Médio das Soluções
+- BFS: 18.40 passos
+- DFS: 28.00 passos
+- A*: 18.40 passos
+
+## ANÁLISE DE SOLUCIONABILIDADE
+- Proporção final de tabuleiros solucionáveis: 100.00%
+- Total de tabuleiros solucionáveis: 15
+- Total de tabuleiros analisados: 15
+
+## ANÁLISE DE CONSUMO DE MEMÓRIA
+### Nota sobre Valores Negativos
+- 3 de 15 execuções (20.00%) apresentaram valores negativos de consumo de memória.
+- Possíveis explicações: liberação de memória pelo sistema durante a execução, imprecisão na medição, ou processos concorrentes.
+- Para uma análise mais confiável, são apresentados também valores absolutos e pico de memória.
+
+### Consumo de Memória (Original)
+- BFS: 195.38 MB
+- DFS: 1487.26 MB
+- A*: 0.16 MB
+
+### Consumo de Memória (Valor Absoluto)
+- BFS: 304.19 MB
+- DFS: 1502.83 MB
+- A*: 0.16 MB
+
+### Pico de Consumo de Memória
+#### BFS
+- Média: 844.40 MB
+- Máximo: 1024.62 MB
+- Mínimo: 660.89 MB
+
+#### DFS
+- Média: 2090.43 MB
+- Máximo: 3557.02 MB
+- Mínimo: 661.61 MB
+
+#### A*
+- Média: 596.14 MB
+- Máximo: 937.05 MB
+- Mínimo: 76.61 MB
+
+## CONCLUSÕES E INSIGHTS
+### Algoritmo com Melhor Desempenho Geral
+Considerando os critérios de tempo de execução, número de nós expandidos e taxa de sucesso, o algoritmo A* apresentou o melhor desempenho geral nesta análise.
+
+### Comparações Importantes
+#### BFS vs DFS
+- Tempo: BFS é 0.75x mais rápido que DFS
+- Nós expandidos: BFS expande 1.50x menos nós que DFS
+- Taxa de sucesso: BFS=100.00%, DFS=20.00%
+
+#### BFS vs A*
+- Tempo: A* é 4815.33x mais rápido que BFS
+- Nós expandidos: A* expande 12377.64x menos nós que BFS
+- Taxa de sucesso: BFS=100.00%, A*=100.00%
+
+#### DFS vs A*
+- Tempo: A* é 3611.00x mais rápido que DFS
+- Nós expandidos: A* expande 18600.48x menos nós que DFS
+- Taxa de sucesso: DFS=20.00%, A*=100.00%
+
+### Conclusão Final
+O algoritmo A* demonstrou ser a melhor escolha para resolver o problema do 15-puzzle, apresentando maior eficiência em termos de tempo de execução, número de nós expandidos e qualidade das soluções encontradas. Isto ocorre devido à sua capacidade de utilizar heurísticas que direcionam a busca, reduzindo significativamente o espaço de estados a ser explorado.
+
+## DADOS PARA CONTEXTUALIZAÇÃO
+Os dados acima são derivados da análise de múltiplas execuções dos algoritmos BFS, DFS e A* aplicados ao problema do 15-puzzle. Estas métricas incluem tempo de execução, nós expandidos, taxa de sucesso, passos na solução, movimentos realizados e consumo de memória. A análise foi realizada em diferentes configurações iniciais do tabuleiro, permitindo uma avaliação abrangente do desempenho relativo dos algoritmos.

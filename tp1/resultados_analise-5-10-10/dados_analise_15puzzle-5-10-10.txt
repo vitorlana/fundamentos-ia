@@ -1,0 +1,138 @@
+# ANÁLISE DE ALGORITMOS PARA RESOLUÇÃO DO 15-PUZZLE
+
+## METADADOS
+- Data da análise: 2025-04-27 18:28
+- Total de execuções analisadas: 15
+- Algoritmos analisados: BFS, DFS, A*
+- Iterações: 5
+
+## RESUMO EXECUTIVO
+### BFS
+- Tempo médio: 0.0157 segundos
+- Nós expandidos: 3.89 mil
+- Taxa de sucesso: 100.00%
+- Passos médios na solução: 9.00
+- Eficiência (nós/passo): 432.09
+
+### DFS
+- Tempo médio: 0.002584 segundos
+- Nós expandidos: 1.74 mil
+- Taxa de sucesso: 100.00%
+- Passos médios na solução: 9.00
+- Eficiência (nós/passo): 193.20
+
+### A*
+- Tempo médio: 0.000250 segundos
+- Nós expandidos: 19.60
+- Taxa de sucesso: 100.00%
+- Passos médios na solução: 9.00
+- Eficiência (nós/passo): 2.18
+
+## ANÁLISE COMPARATIVA
+### Tempo de Execução
+- Algoritmo mais rápido: A* (0.000250 segundos)
+- Algoritmo mais lento: BFS (0.015688 segundos)
+- O algoritmo BFS é 62.76x mais lento que o A*
+
+### Nós Expandidos
+- Algoritmo com menos nós expandidos: A* (19.60)
+- Algoritmo com mais nós expandidos: BFS (3.89 mil)
+- O algoritmo BFS expande 198.41x mais nós que o A*
+
+### Taxa de Sucesso
+- BFS: 100.00%
+- DFS: 100.00%
+- A*: 100.00%
+
+### Eficiência
+- Algoritmo mais eficiente: A* (2.18 nós/passo)
+- Algoritmo menos eficiente: BFS (432.09 nós/passo)
+
+## ANÁLISE DE MOVIMENTOS
+### Frequência Total de Movimentos
+- Direita: 49
+- Esquerda: 25
+- Cima: 26
+- Baixo: 50
+
+### Movimentos por Algoritmo
+#### BFS
+- Direita: 16
+- Esquerda: 8
+- Cima: 9
+- Baixo: 17
+
+#### DFS
+- Direita: 17
+- Esquerda: 9
+- Cima: 8
+- Baixo: 16
+
+#### A*
+- Direita: 16
+- Esquerda: 8
+- Cima: 9
+- Baixo: 17
+
+### Tamanho Médio das Soluções
+- BFS: 10.00 passos
+- DFS: 10.00 passos
+- A*: 10.00 passos
+
+## ANÁLISE DE SOLUCIONABILIDADE
+- Proporção final de tabuleiros solucionáveis: 100.00%
+- Total de tabuleiros solucionáveis: 15
+- Total de tabuleiros analisados: 15
+
+## ANÁLISE DE CONSUMO DE MEMÓRIA
+### Consumo de Memória (Original)
+- BFS: 0.95 MB
+- DFS: 0.12 MB
+- A*: 0.00 MB
+
+### Consumo de Memória (Valor Absoluto)
+- BFS: 0.95 MB
+- DFS: 0.12 MB
+- A*: 0.00 MB
+
+### Pico de Consumo de Memória
+#### BFS
+- Média: 76.49 MB
+- Máximo: 77.17 MB
+- Mínimo: 75.97 MB
+
+#### DFS
+- Média: 76.29 MB
+- Máximo: 77.16 MB
+- Mínimo: 75.80 MB
+
+#### A*
+- Média: 76.48 MB
+- Máximo: 77.16 MB
+- Mínimo: 75.97 MB
+
+## CONCLUSÕES E INSIGHTS
+### Algoritmo com Melhor Desempenho Geral
+Considerando os critérios de tempo de execução, número de nós expandidos e taxa de sucesso, o algoritmo A* apresentou o melhor desempenho geral nesta análise.
+
+### Comparações Importantes
+#### BFS vs DFS
+- Tempo: BFS é 0.16x mais rápido que DFS
+- Nós expandidos: BFS expande 0.45x menos nós que DFS
+- Taxa de sucesso: BFS=100.00%, DFS=100.00%
+
+#### BFS vs A*
+- Tempo: A* é 62.76x mais rápido que BFS
+- Nós expandidos: A* expande 198.41x menos nós que BFS
+- Taxa de sucesso: BFS=100.00%, A*=100.00%
+
+#### DFS vs A*
+- Tempo: A* é 10.34x mais rápido que DFS
+- Nós expandidos: A* expande 88.71x menos nós que DFS
+- Taxa de sucesso: DFS=100.00%, A*=100.00%
+
+### Conclusão Final
+O algoritmo A* demonstrou ser a melhor escolha para resolver o problema do 15-puzzle, apresentando maior eficiência em termos de tempo de execução, número de nós expandidos e qualidade das soluções encontradas. Isto ocorre devido à sua capacidade de utilizar heurísticas que direcionam a busca, reduzindo significativamente o espaço de estados a ser explorado.
+
+## DADOS PARA CONTEXTUALIZAÇÃO
+Os dados acima são derivados da análise de múltiplas execuções dos algoritmos BFS, DFS e A* aplicados ao problema do 15-puzzle. Estas métricas incluem tempo de execução, nós expandidos, taxa de sucesso, passos na solução, movimentos realizados e consumo de memória. A análise foi realizada em diferentes configurações iniciais do tabuleiro, permitindo uma avaliação abrangente do desempenho relativo dos algoritmos.
